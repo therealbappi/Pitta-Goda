@@ -49,7 +49,7 @@ class Game():
 
 
     def eventLoop(self):
-        # the main event loop, detects keypresses
+        # the main event loop, detects keypresse
         for event in pygame.event.get():
             if event.type == QUIT:
                 pygame.quit()
